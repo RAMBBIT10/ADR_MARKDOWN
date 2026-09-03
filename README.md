@@ -1,14 +1,14 @@
 # ADR_MARKDOWN
 
-| Campo | Valor |
+| Campo | Enunciado |
 |-------|-------|
-| **Código** | ESC-CAL-INTG-0007 |
-| **Nombre** | Salida válida asociada a proyecto |
-| **Atributo de calidad** | Integridad |
-| **Categoría** | Reglas de negocio |
-| **Característica** | Toda salida debe asociarse a un proyecto y validar el stock antes de registrar el movimiento. |
-| **Objetivo** | Registrar una salida solo cuando existe proyecto y stock suficiente. |
-| **Criterios de éxito** | La salida se crea y el stock disminuye en la misma operación. |
-| **Prerrequisitos** | 1. Proyecto válido. 2. Productos existentes. 3. Cantidades no superiores al stock. |
-| **Requisito relacionado** | RF-39 / RN-14 |
-| **Tipo de escenario** | Éxito |
+| **Titulo** | consultar productos mediante QR desde la aplicacion movil  |
+| **Escenario** | ESC-CAL-USA-0003 |
+| **Fecha** | 2 de septiembre de 2026 |
+| **Contexto** | El empleado necesita consultar rápidamente un producto utilizando la cámara del dispositivo móvil como mecanismo de entrada, evitando escribir manualmente el código o nombre, así ahorrando tiempo y proporcionando facilidad. |
+| **Decision** | Lectura QR mediante la camara del dispositivo móvil por lo que el usuario capturara el codigo y podra consulta el producto, usaremos PWA usando librería web para lectura del QR, la libreria implementada fue Media device par ala camara luego la libreria para el QR seria @zxing/ngx-scanner o ngx-scanner-qrcode  |
+| **Alternativas** |  |
+| **consecuencias** | -Positiva: reduce digitación y pasos para consultar productos. -Negativa: depende de permisos y disponibilidad de la cámara.
+- Negativa: se debe manejar iluminación, enfoque y códigos no legibles.|
+| **Participantes** | |
+| **estatus** | |

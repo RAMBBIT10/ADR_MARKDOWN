@@ -9,6 +9,6 @@
 | **Decision** | Lectura QR mediante la camara del dispositivo móvil por lo que el usuario capturara el codigo y podra consulta el producto, usaremos PWA usando librería web para lectura del QR, la libreria implementada fue Media device par ala camara luego la libreria para el QR seria @zxing/ngx-scanner o ngx-scanner-qrcode  |
 | **Alternativas** |  |
 | **consecuencias** | -Positiva: reduce digitación y pasos para consultar productos. -Negativa: depende de permisos y disponibilidad de la cámara.
-- Negativa: se debe manejar iluminación, enfoque y códigos no legibles.|
+ Negativa: se debe manejar iluminación, enfoque y códigos no legibles.|
 | **Participantes** | |
 | **estatus** | |
